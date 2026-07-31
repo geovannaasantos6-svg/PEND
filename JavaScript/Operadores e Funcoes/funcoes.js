@@ -15,8 +15,8 @@ function somar (a,b){
 console.log(somar(5,3));
 
 
-let peso = 52
-let alt = 1.60
+let peso = prompt("Digite o seu peso: ");
+let alt = prompt("Digite sua altura:");
 function imc(peso,alt){
     return peso/(alt*alt);
 }
@@ -24,11 +24,12 @@ console.log("Seu IMC é:" + imc(peso,alt));
 
 
 
-let numero = 7;
-function imparOuPar(num){
+let numero = prompt("Digite o seu numero:");
+function imparOuPar(numero){
     if(numero % 2 === 0){
         return"par";
-    }else{ "impar"
+    }else{ 
+        return"impar";
     }
 }
 console.log("O numero é", imparOuPar(numero));

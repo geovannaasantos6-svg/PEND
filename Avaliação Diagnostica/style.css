@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:#cc375830;
+}
+
+header{
+    background:#960a2fe4;
+    color:rgb(251, 245, 245);
+    text-align:center;
+    padding:30px;
+}
+
+main{
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+}
+
+.sobre{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    background:rgba(190, 43, 85, 0.452);
+    padding:20px;
+    border-radius:10px;
+}
+
+.sobre img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:0;
+}
+
+.contato{
+    background:rgba(190, 43, 85, 0.41);
+    margin-top:30px;
+    padding:20px;
+    border-radius:10px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    margin-top:15px;
+}
+
+input{
+    padding:10px;
+    margin-top:5px;
+    background-color: #fffefe74;
+}
+
+button{
+    margin-top:20px;
+    padding:12px;
+    background:#9f2241;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#2563eb;
+}
+
+#mensagem{
+    margin-top:20px;
+    font-weight:bold;
+    color:green;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
