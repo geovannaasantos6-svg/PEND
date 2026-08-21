@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0d47a1, #42a5f5);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    color: #0d47a1;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #90caf9;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #1565c0;
+}
+
+button {
+    width: 100%;
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0d47a1;
+    transform: scale(1.03);
+}
+
+hr {
+    border: none;
+    border-top: 2px solid white;
+    margin: 40px auto;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#resultado {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Estilo para os produtos cadastrados */
+.produto {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border-left: 6px solid #1565c0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
