@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f3eaff;
+}
+
+h1 {
+    color: purple;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.roupas {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.peca {
+    background: #e5d5ff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: grab;
+}
+
+#look {
+    width: 300px;
+    height: 300px;
+    border: 3px dashed purple;
+    background-color: white;
+    padding: 20px;
+}
+
+#look:hover {
+    background-color: #eee0ff;
+}
+
+.item {
+    background-color: #e5d5ff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#mensagem {
+    color: green;
+    font-weight: bold;
+}
+
