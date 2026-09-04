@@ -1,4 +1,3 @@
-
 let pecas = document.querySelectorAll(".peca");
 let look = document.querySelector("#look");
 let mensagem = document.querySelector("#mensagem");
@@ -33,9 +32,14 @@ look.addEventListener("drop", function(event) {
 
     mensagem.innerText = "Peça adicionada ao look!";
 
-    
-
 });
 
 
+// Botão apagar
+apagar.addEventListener("click", function() {
 
+    look.innerHTML = "";
+
+    mensagem.innerText = "Look apagado!";
+
+});
