@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Loja de Roupas</h1>
+        <p>Consulte nossos produtos através de uma API pública</p>
+    </header>
+
+    <main>
+
+        <section class="consulta">
+
+            <h2>Produtos disponíveis</h2>
+
+            <p>
+                Clique no botão abaixo para consultar os produtos.
+            </p>
+
+            <button id="btnConsultar">Consultar produtos</button>
+
+        </section>
+
+        <p id="mensagem"></p>
+
+        <section id="produtos" class="produtos"></section>
+
+    </main>
+
+    <section class="entrega">
+
+    <h2>Endereço de entrega</h2>
+
+    <p>
+        Digite seu CEP para preencher automaticamente o endereço.
+    </p>
+
+    <div class="cep-area">
+
+        <input type="text" id="cep" placeholder="Digite seu CEP" maxlength="9">
+        <button id="btnCep">Buscar endereço</button>
+
+    </div>
+
+    <p id="mensagemCep"></p>
+
+    <div class="endereco">
+
+        <input type="text" id="rua" placeholder="Rua" readonly>
+        <input type="text" id="bairro" placeholder="Bairro" readonly>
+        <input type="text" id="cidade" placeholder="Cidade" readonly>
+        <input type="text" id="estado" placeholder="Estado" readonly>
+
+    </div>
+</section>
+
+    <footer>
+        <p>Projeto desenvolvido para a atividade de Programação Front-End</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
